@@ -1,0 +1,45 @@
+Initialize engine version: 5.0.0p2 (b8242d3df8b0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M    (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initialized touch support.
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\System.Core.dll (this message is harmless)
+Shader 'Nature/Terrain/Specular': fallback shader 'Nature/Terrain/Diffuse' not found
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\System.dll (this message is harmless)
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+Platform assembly: D:\Unity Projects\Swekkroket\OculusTest1_Data\Managed\Boo.Lang.dll (this message is harmless)
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
