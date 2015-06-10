@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\Messages.cs" />
      <Compile Include="Assets\Scripts\MoviePlay.cs" />
      <Compile Include="Assets\Scripts\NextWaypoint.cs" />
+     <Compile Include="Assets\Scripts\ParentTrigger.cs" />
      <Compile Include="Assets\Scripts\ScrubBehaviour.cs" />
      <Compile Include="Assets\SoldierMovement.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />

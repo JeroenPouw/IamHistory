@@ -21,7 +21,7 @@ public class MoviePlay : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.P) && !Audio.isPlaying) {
-			StartCoroutine(FadeToClear());
+			//StartCoroutine(FadeToClear());
 			Movie.Play();
 			Audio.Play();
 		}
@@ -33,18 +33,18 @@ public class MoviePlay : MonoBehaviour {
 		}
 	}
 
-	void OnGUI()
-	{
-		if (Movie != null && Movie.isPlaying) {
-			Color c = GUI.color;
-			Color old = c;
-			c.a = 1f;
-			GUI.color = c;
-			GUI.DrawTexture(new Rect(0,0, Screen.width, Screen.height), Movie, ScaleMode.StretchToFill,alphaBlend:false);
-			GUI.color = old;
-
-		}
-	}
+//	void OnGUI()
+//	{
+//		if (Movie != null && Movie.isPlaying) {
+//			Color c = GUI.color;
+//			Color old = c;
+//			c.a = 1f;
+//			GUI.color = c;
+//			GUI.DrawTexture(new Rect(0,0, Screen.width, Screen.height), Movie, ScaleMode.StretchToFill,alphaBlend:false);
+//			GUI.color = old;
+//
+//		}
+//	}
 
 	private IEnumerator FadeToClear()
 	{
