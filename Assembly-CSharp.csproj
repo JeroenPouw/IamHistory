@@ -80,8 +80,13 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\Scripts\ArmyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ArmyMover.cs" />
      <Compile Include="Assets\Scripts\EventScript.cs" />
+     <Compile Include="Assets\Scripts\Messages.cs" />
      <Compile Include="Assets\Scripts\MoviePlay.cs" />
+     <Compile Include="Assets\Scripts\NextWaypoint.cs" />
+     <Compile Include="Assets\Scripts\ScrubBehaviour.cs" />
      <Compile Include="Assets\SoldierMovement.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
