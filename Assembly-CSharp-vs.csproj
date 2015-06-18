@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ArmyTrigger.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPostRender.cs" />
@@ -82,13 +81,19 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\Scripts\ArmyBehaviour.cs" />
      <Compile Include="Assets\Scripts\ArmyMover.cs" />
+     <Compile Include="Assets\Scripts\ArmyTrigger.cs" />
      <Compile Include="Assets\Scripts\EventScript.cs" />
      <Compile Include="Assets\Scripts\Messages.cs" />
      <Compile Include="Assets\Scripts\MoviePlay.cs" />
+     <Compile Include="Assets\Scripts\NextLevelScript.cs" />
      <Compile Include="Assets\Scripts\NextWaypoint.cs" />
      <Compile Include="Assets\Scripts\ParentTrigger.cs" />
+     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PlayerMover.cs" />
+     <Compile Include="Assets\Scripts\PlayerWaypointScript.cs" />
      <Compile Include="Assets\Scripts\ScrubBehaviour.cs" />
-     <Compile Include="Assets\SoldierMovement.cs" />
+     <Compile Include="Assets\Scripts\SoldierMovement.cs" />
+     <Compile Include="Assets\Scripts\SquadronMover.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />

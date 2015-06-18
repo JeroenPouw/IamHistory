@@ -11,8 +11,10 @@ public class NextWaypoint : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other)
 	{
-		Debug.Log (other);
 		other.gameObject.SendMessage (Messages.NextWaypoint, nextWaypoint, SendMessageOptions.DontRequireReceiver);
+		if (this.gameObject.tag == "FinalArmyTrigger") {
+			// do nothing
+		}
 	}
 	
 	void OnDrawGizmos()

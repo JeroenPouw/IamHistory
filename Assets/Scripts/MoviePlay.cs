@@ -20,6 +20,9 @@ public class MoviePlay : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown(KeyCode.N)) {
+			Application.LoadLevel("Cutscene");
+		}
 		if (Input.GetKeyDown(KeyCode.P) && !Audio.isPlaying) {
 			//StartCoroutine(FadeToClear());
 			Movie.Play();
